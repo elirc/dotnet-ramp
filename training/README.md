@@ -78,3 +78,8 @@ without switching the primary working tree's branch away from `main`.
   timing) was read for the review exercise but not exercised end-to-end (no
   server was started; this DRILL tier doesn't include a working-app smoke
   test).
+
+## B08 additions
+- New learners should start at `learn/README.md`, the junior on-ramp and study route that leads into this folder.
+- `tickets/J1-clear-stale-rejection-reason.md` is a first coding ticket, and the sealed answer is
+  `_answers/ticket-J1.md`. Do it after the review.
