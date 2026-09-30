@@ -130,3 +130,11 @@ the session tells you to.
 ## Next repo
 **`Desktop\.netstripe`.** It's the same "minimal backend, zero tests" shape, but the domain is money, it teaches
 idempotency, and **its `main` doesn't compile**, so the first lesson there is diagnosing a broken build.
+
+
+## Extended current-source course
+
+[Open the extended course](extended-course/README.md) for a progressive route with prediction exercises, separate solutions, an independent capstone, and bounded labs. The larger expansion remains in progress; the available route states its current scope.
+
+
+Extended-course completion: the 24-module route now exceeds its 39,280-word instructional target and includes 69 answered exercises, two capstones, a final assessment, and four bounded runners. See the course README for exact test scope.
