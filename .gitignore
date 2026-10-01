@@ -1,0 +1,29 @@
+# .NET
+backend/bin/
+backend/obj/
+backend/uploads/
+*.user
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editor / OS
+.vs/
+.idea/
+.DS_Store
+*.log
+
+node_modules/
+bin/
+obj/
+dist/
+build/
+.vs/
+.idea/
+*.db
+.env
+.env*
+!.env*.example
+!.env*.sample

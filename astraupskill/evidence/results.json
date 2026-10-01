@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "total": 10,
+  "tests": 10,
+  "failed": 0,
+  "checks": [
+    "restore-tests-4",
+    "backend-tests-6",
+    "root-backend-build-01",
+    "root-frontend-install-01",
+    "root-frontend-build-01"
+  ],
+  "scope": "Actual in-memory expense service, reimbursement delegate and capacity-one queue; ten xUnit facts, backend Release and frontend production builds. No HTTP/receipt/payment/database or controlled thread interleaving test."
+}

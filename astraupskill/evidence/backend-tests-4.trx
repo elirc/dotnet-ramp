@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b826de13-3745-44f1-abbe-50b3f1066046" name="Owner@DESKTOP-T0PFEUT 2026-09-12 16:54:11" runUser="DESKTOP-T0PFEUT\Owner" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-12T16:54:11.7033310-07:00" queuing="2026-09-12T16:54:11.7033317-07:00" start="2026-09-12T16:53:50.1208266-07:00" finish="2026-09-12T16:54:12.9614622-07:00" />
+  <TestSettings name="default" id="e312a58a-0ceb-4d61-ad2a-2ec8aa9c1ed1">
+    <Deployment runDeploymentRoot="Owner_DESKTOP-T0PFEUT_2026-09-12_16_54_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2efa6b55-f45e-4069-b532-03ca5c1c0c36" testId="79e7f97c-9e37-d63a-2748-5f3f2207ccd6" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Accepted_reimbursement_records_one_transition_and_duplicate_jobs_complete_once" computerName="DESKTOP-T0PFEUT" duration="00:00:00.4908954" startTime="2026-09-12T16:54:12.3578001-07:00" endTime="2026-09-12T16:54:12.3578010-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2efa6b55-f45e-4069-b532-03ca5c1c0c36" />
+    <UnitTestResult executionId="bb53832b-bea6-40c9-b0b0-c05542fed742" testId="6d94c982-9965-23c8-6c55-0c8d9bab6c4b" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Blocked_submit_does_not_refresh_or_mutate_policy_state" computerName="DESKTOP-T0PFEUT" duration="00:00:00.0740586" startTime="2026-09-12T16:54:11.8522262-07:00" endTime="2026-09-12T16:54:11.8522269-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb53832b-bea6-40c9-b0b0-c05542fed742" />
+    <UnitTestResult executionId="2cc71f59-3719-47bd-9609-e85b866aab9c" testId="cc3044e4-8f7d-a9ef-1683-6a93c5423fe4" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Reject_on_draft_does_not_change_reason_history_or_timestamp" computerName="DESKTOP-T0PFEUT" duration="00:00:00.2831041" startTime="2026-09-12T16:54:11.7542518-07:00" endTime="2026-09-12T16:54:11.7542527-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cc71f59-3719-47bd-9609-e85b866aab9c" />
+    <UnitTestResult executionId="92cec151-4970-4670-97ab-d9f7ba4cafcc" testId="f0d6c669-b041-9b70-9550-ead112517b84" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.System_transition_only_allows_marked_worker_edge" computerName="DESKTOP-T0PFEUT" duration="00:00:03.2219971" startTime="2026-09-12T16:54:11.4672472-07:00" endTime="2026-09-12T16:54:11.4674816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92cec151-4970-4670-97ab-d9f7ba4cafcc" />
+    <UnitTestResult executionId="335afc28-0994-4b12-9798-f827bb9d7179" testId="93ed8d8a-74d1-2360-6861-9390607050c8" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Full_reimbursement_queue_leaves_approved_expense_unchanged" computerName="DESKTOP-T0PFEUT" duration="00:00:00.0239619" startTime="2026-09-12T16:54:11.7778848-07:00" endTime="2026-09-12T16:54:11.7778858-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="335afc28-0994-4b12-9798-f827bb9d7179" />
+    <UnitTestResult executionId="cc09b1ea-4dba-40f2-b61e-27d39d81814d" testId="5ee318bf-b5bf-43df-b271-292e64c163b6" testName="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Invalid_update_leaves_live_entity_unchanged" computerName="DESKTOP-T0PFEUT" duration="00:00:00.0140743" startTime="2026-09-12T16:54:11.8666296-07:00" endTime="2026-09-12T16:54:11.8666305-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc09b1ea-4dba-40f2-b61e-27d39d81814d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Invalid_update_leaves_live_entity_unchanged" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="5ee318bf-b5bf-43df-b271-292e64c163b6">
+      <Execution id="cc09b1ea-4dba-40f2-b61e-27d39d81814d" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="Invalid_update_leaves_live_entity_unchanged" />
+    </UnitTest>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Full_reimbursement_queue_leaves_approved_expense_unchanged" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="93ed8d8a-74d1-2360-6861-9390607050c8">
+      <Execution id="335afc28-0994-4b12-9798-f827bb9d7179" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="Full_reimbursement_queue_leaves_approved_expense_unchanged" />
+    </UnitTest>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.System_transition_only_allows_marked_worker_edge" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="f0d6c669-b041-9b70-9550-ead112517b84">
+      <Execution id="92cec151-4970-4670-97ab-d9f7ba4cafcc" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="System_transition_only_allows_marked_worker_edge" />
+    </UnitTest>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Reject_on_draft_does_not_change_reason_history_or_timestamp" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="cc3044e4-8f7d-a9ef-1683-6a93c5423fe4">
+      <Execution id="2cc71f59-3719-47bd-9609-e85b866aab9c" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="Reject_on_draft_does_not_change_reason_history_or_timestamp" />
+    </UnitTest>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Blocked_submit_does_not_refresh_or_mutate_policy_state" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="6d94c982-9965-23c8-6c55-0c8d9bab6c4b">
+      <Execution id="bb53832b-bea6-40c9-b0b0-c05542fed742" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="Blocked_submit_does_not_refresh_or_mutate_policy_state" />
+    </UnitTest>
+    <UnitTest name="ExpenseManagement.Api.Tests.ExpenseWorkflowTests.Accepted_reimbursement_records_one_transition_and_duplicate_jobs_complete_once" storage="c:\users\owner\desktop\astraorganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\expensemanagement.api.tests\bin\debug\net8.0\expensemanagement.api.tests.dll" id="79e7f97c-9e37-d63a-2748-5f3f2207ccd6">
+      <Execution id="2efa6b55-f45e-4069-b532-03ca5c1c0c36" />
+      <TestMethod codeBase="C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ExpenseManagement.Api.Tests.ExpenseWorkflowTests" name="Accepted_reimbursement_records_one_transition_and_duplicate_jobs_complete_once" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="79e7f97c-9e37-d63a-2748-5f3f2207ccd6" executionId="2efa6b55-f45e-4069-b532-03ca5c1c0c36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d94c982-9965-23c8-6c55-0c8d9bab6c4b" executionId="bb53832b-bea6-40c9-b0b0-c05542fed742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc3044e4-8f7d-a9ef-1683-6a93c5423fe4" executionId="2cc71f59-3719-47bd-9609-e85b866aab9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0d6c669-b041-9b70-9550-ead112517b84" executionId="92cec151-4970-4670-97ab-d9f7ba4cafcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93ed8d8a-74d1-2360-6861-9390607050c8" executionId="335afc28-0994-4b12-9798-f827bb9d7179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ee318bf-b5bf-43df-b271-292e64c163b6" executionId="cc09b1ea-4dba-40f2-b61e-27d39d81814d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 10.0.10)&#xD;
+[xUnit.net 00:00:08.95]   Discovering: ExpenseManagement.Api.Tests&#xD;
+[xUnit.net 00:00:09.24]   Discovered:  ExpenseManagement.Api.Tests&#xD;
+[xUnit.net 00:00:09.25]   Starting:    ExpenseManagement.Api.Tests&#xD;
+[xUnit.net 00:00:14.17]   Finished:    ExpenseManagement.Api.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

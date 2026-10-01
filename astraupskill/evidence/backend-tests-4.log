@@ -1,0 +1,7 @@
+  ExpenseManagement.Api -> C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\bin\Debug\net8.0\ExpenseManagement.Api.dll
+  ExpenseManagement.Api.Tests -> C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll
+Test run for C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\bin\Debug\net8.0\ExpenseManagement.Api.Tests.dll (.NETCoreApp,Version=v8.0)
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\Owner\Desktop\AstraOrganized2\astra-remaining-improvements\stage\a0a0ff059e64\backend\ExpenseManagement.Api.Tests\TestResults\a0a0ff059e64-4.trx
+
+Passed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration: 4 s - ExpenseManagement.Api.Tests.dll (net8.0)

@@ -1,0 +1,22 @@
+{
+  "project": "geminiorganized/OpenSource_Upskilling_.Ramp",
+  "id": "a0a0ff059e64",
+  "command": [
+    "dotnet",
+    "build",
+    "ExpenseManagement.Api.csproj",
+    "--no-restore",
+    "-c",
+    "Release"
+  ],
+  "cwd": "C:\\Users\\Owner\\Desktop\\AstraOrganized2\\astra-remaining-improvements\\stage\\a0a0ff059e64\\backend",
+  "environmentOverrides": {},
+  "startedAt": "2026-09-13T00:08:03.368779+00:00",
+  "status": "complete",
+  "log": "root-backend-build-01.log",
+  "pid": 36612,
+  "exitCode": 0,
+  "passed": true,
+  "finishedAt": "2026-09-13T00:10:15.370268+00:00",
+  "elapsedSeconds": 132.0
+}

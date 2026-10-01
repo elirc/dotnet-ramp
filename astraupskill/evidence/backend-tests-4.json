@@ -1,0 +1,26 @@
+{
+  "project": "geminiorganized/OpenSource_Upskilling_.Ramp",
+  "id": "a0a0ff059e64",
+  "command": [
+    "dotnet",
+    "test",
+    "ExpenseManagement.Api.Tests.csproj",
+    "--no-restore",
+    "--logger",
+    "trx;LogFileName=a0a0ff059e64-4.trx",
+    "--results-directory",
+    "TestResults"
+  ],
+  "cwd": "C:\\Users\\Owner\\Desktop\\AstraOrganized2\\astra-remaining-improvements\\stage\\a0a0ff059e64\\backend\\ExpenseManagement.Api.Tests",
+  "environmentOverrides": {
+    "DOTNET_ROLL_FORWARD": "Major"
+  },
+  "startedAt": "2026-09-12T23:51:37.383961+00:00",
+  "status": "complete",
+  "log": "backend-tests-4.log",
+  "pid": 3792,
+  "exitCode": 0,
+  "passed": true,
+  "finishedAt": "2026-09-12T23:54:14.540602+00:00",
+  "elapsedSeconds": 157.15
+}

@@ -1,0 +1,21 @@
+{
+  "project": "geminiorganized/OpenSource_Upskilling_.Ramp",
+  "id": "a0a0ff059e64",
+  "command": [
+    "node",
+    "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+    "install",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "cwd": "C:\\Users\\Owner\\Desktop\\AstraOrganized2\\astra-remaining-improvements\\stage\\a0a0ff059e64\\frontend",
+  "environmentOverrides": {},
+  "startedAt": "2026-09-13T00:02:31.704523+00:00",
+  "status": "complete",
+  "log": "root-frontend-install-01.log",
+  "pid": 3792,
+  "exitCode": 0,
+  "passed": true,
+  "finishedAt": "2026-09-13T00:07:38.716703+00:00",
+  "elapsedSeconds": 307.01
+}

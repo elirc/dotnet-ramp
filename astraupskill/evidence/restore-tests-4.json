@@ -1,0 +1,21 @@
+{
+  "project": "geminiorganized/OpenSource_Upskilling_.Ramp",
+  "id": "a0a0ff059e64",
+  "command": [
+    "dotnet",
+    "restore",
+    "ExpenseManagement.Api.Tests.csproj"
+  ],
+  "cwd": "C:\\Users\\Owner\\Desktop\\AstraOrganized2\\astra-remaining-improvements\\stage\\a0a0ff059e64\\backend\\ExpenseManagement.Api.Tests",
+  "environmentOverrides": {
+    "DOTNET_ROLL_FORWARD": "Major"
+  },
+  "startedAt": "2026-09-12T23:58:00.427672+00:00",
+  "status": "complete",
+  "log": "restore-tests-4.log",
+  "pid": 21620,
+  "exitCode": 0,
+  "passed": true,
+  "finishedAt": "2026-09-12T23:58:22.609217+00:00",
+  "elapsedSeconds": 22.18
+}
