@@ -1,6 +1,6 @@
 # Incident 001 — Finance reimbursing expenses that were never approved
 
-**Branch:** `training/incidents/001-fast-track-reimbursement` (based on `main` @ `c5ef2a7`)
+**Branch:** `training/incidents/001-fast-track-reimbursement` (based on `main` @ `c5ef2a7`; not published to the remote, so see the status note in `training/README.md` to recreate it)
 **Severity:** SEV-2 (financial control bypass)
 **Reported by:** Internal Audit, during the monthly spend reconciliation
 

@@ -2,8 +2,8 @@
 
 Tier: **DRILL** (Phase 3 review + incidents, plus a small Phase 5 interview
 kit). No `ladder/`, `navigation/`, or `agentic/` here — that's LAB-tier scope
-and this project didn't get it in this batch (see the batch report for why:
-`Desktop\opusorganize\batch1report\projects\netramp.md`).
+and this project didn't get it in this batch (the batch report that explains
+why lives outside this repository and isn't published with it).
 
 Everything below references real files in `backend/` on `main` @ `c5ef2a7`
 unless a step says otherwise.
@@ -60,6 +60,19 @@ warnings/0 errors, verified during this batch on .NET SDK 10.0.302 — no
 
 - `training/incidents/001-fast-track-reimbursement` @ `6db91f4`
 - `training/incidents/002-receipt-extension-trust` @ `f9adecc`
+
+> **Status note (2026-10-06): these branches were never pushed.** `git ls-remote
+> origin` lists only `main` and an unrelated `gemini-copy` branch, and neither
+> `6db91f4` nor `f9adecc` exists in the published history, so a fresh clone
+> cannot check them out. Until they are restored, recreate each one on a local
+> branch of the same name off `main`. To keep the diagnosis blind, ask a partner
+> (or an agent told not to describe the change) to apply the "changed to" code
+> from the matching sealed answer: `_answers/001-fast-track-reimbursement.md`
+> (one extra entry in the `Submitted` map of
+> `backend/Domain/ExpenseStateMachine.cs:30-34`) and
+> `_answers/002-receipt-extension-trust.md` (the rewritten block in
+> `backend/Services/ReceiptStorage.cs:45-56`). The build claims above refer to
+> the original branches and haven't been re-checked against a recreation.
 
 Neither branch is merged into `main`. Check one out, or `git show` the diff,
 without switching the primary working tree's branch away from `main`.

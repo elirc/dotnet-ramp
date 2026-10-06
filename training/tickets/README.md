@@ -2,7 +2,7 @@
 
 In B01 this DRILL repo got no ladder, only a review, incidents and a mini interview kit. That left a junior learner
 with no small, *coding* ticket to practise on before the incidents. This folder fills that gap with one junior-rung
-ticket in the house ladder format (compare `Desktop\netdrop\training\ladder\`).
+ticket in the house ladder format (compare `training/ladder/` in the `dotnet-drop` repo).
 
 | Ticket | Rung | Skill | Answer |
 |---|---|---|---|

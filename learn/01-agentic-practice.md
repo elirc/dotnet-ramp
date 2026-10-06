@@ -7,7 +7,8 @@ The loop in every drill:
 4. **Only then** open the sealed rubric in `learn/_answers/01-agentic-practice.md`.
 
 Concept background: [05 Verify before trust](../../opusorganize/apprenticeship/curriculum/05-verify-before-trust.md),
-[04 Characterization tests](../../opusorganize/apprenticeship/curriculum/04-characterization-tests.md).
+[04 Characterization tests](../../opusorganize/apprenticeship/curriculum/04-characterization-tests.md). Both links point
+outside this repository and don't resolve from a clone.
 
 Rules for every drill:
 - Work on a branch named `learn/<drill>` off the branch named in the drill. Never commit agent output to `main`.
@@ -29,7 +30,10 @@ Rules for every drill:
 3. Review with the checklist, and pay particular attention to item 3.
 4. Mutation check (you do this): apply the incident 001 diff to your branch
    (`git diff main training/incidents/001-fast-track-reimbursement -- backend/Domain/ExpenseStateMachine.cs | git apply`),
-   run the tests, and record which ones fail. Then revert.
+   run the tests, and record which ones fail. Then revert. The incident branch isn't on the remote (see
+   `training/README.md`). Without it, make the same mutation by hand: add
+   `[ExpenseStatus.Reimbursing] = new[] { UserRole.Finance }` to the `Submitted` map at
+   `backend/Domain/ExpenseStateMachine.cs:30-34`.
 
 **Pass bar:** your spec alone leads the agent to a test that fails under the mutation. If it didn't, fix the *spec* and
 re-run. Don't fix the test by hand.

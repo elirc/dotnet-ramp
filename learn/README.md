@@ -16,8 +16,11 @@ You can read the whole backend in an afternoon. Start here, not with netdrop or 
   This `learn/` folder is the on-ramp *to* that material.
 
 ## Known state of main
-- **It builds.** Both incident branches build clean with 0 warnings and 0 errors on SDK 10.0.302 (source:
-  `Desktop\opusorganize\batch1report\projects\netramp.md` §Verification). This repo has no `global.json`.
+- **It builds.** Both incident branches built clean with 0 warnings and 0 errors on SDK 10.0.302, according to the
+  original batch report (kept outside this repo). This repo has no `global.json`.
+- **The incident branches are not on the remote** (status 2026-10-06: `git ls-remote origin` shows only `main` and
+  an unrelated `gemini-copy`). Sessions 4 and 6 and Drills A–C need them. Recreate them first, using the status note
+  in `training/README.md`.
 - **There are zero test files.** The characterization-test reference in `training/_answers/characterization-test.md`
   was run in a standalone scratch project: 14/14 pass on `main`, and 3 fail when incident 001's diff is applied. It has
   never been run inside a real `backend/ExpenseManagement.Api.Tests` project, because that project doesn't exist yet.
@@ -27,11 +30,12 @@ You can read the whole backend in an afternoon. Start here, not with netdrop or 
 
 ## Prerequisites
 These are the fundamentals you need before starting. Each one points at a file here, and the harder concepts link to
-the central curriculum.
+the central curriculum. Those `../../opusorganize/...` links point at a folder outside this repository, so they don't
+resolve from a clone. Use the topic names to find equivalent reading.
 1. **C# types: enums, records, classes, `init` vs `set`, nullable `?`.** Read `backend/Domain/Enums.cs` and
    `backend/Domain/Expense.cs` (the whole of both, 100 lines). On-ramp exercise 1 checks this.
 2. **Dictionaries and LINQ (`Where`, `Select`, `OrderByDescending`, `TryGetValue`).** Read `ExpenseService.List`
-   (`backend/Services/ExpenseService.cs:30-52`) and `ExpenseStateMachine.CanTransition` (lines 51-54).
+   (`backend/Services/ExpenseService.cs:30-52`) and `ExpenseStateMachine.CanTransition` (`backend/Domain/ExpenseStateMachine.cs:50-53`).
 3. **How an ASP.NET Core request flows: DI lifetimes, middleware order, `[Authorize]`, controllers.** Read
    `backend/Program.cs` (58 lines). On-ramp exercises 3 and 4 check this.
 4. **What a unit test is and why a characterization test is different.** Read
@@ -128,7 +132,7 @@ the session tells you to.
   (`ExceptionHandlingMiddleware.cs`).
 
 ## Next repo
-**`Desktop\.netstripe`.** It's the same "minimal backend, zero tests" shape, but the domain is money, it teaches
+**`.netstripe`** (published on this account as `dotnet-stripe`). It's the same "minimal backend, zero tests" shape, but the domain is money, it teaches
 idempotency, and **its `main` doesn't compile**, so the first lesson there is diagnosing a broken build.
 
 

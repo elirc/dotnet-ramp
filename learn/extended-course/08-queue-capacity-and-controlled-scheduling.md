@@ -5,7 +5,7 @@ The [queue lab](labs/queue_lab.py) compiles a copy of [BackgroundTaskQueue](../.
 Run it with Python and a .NET 10 SDK. It has no package references and does not build the application project. The runner uses an owned temporary directory and compares the original queue file's hash before and after.
 
 ```powershell
-python C:/Users/Owner/Desktop/.netramp/learn/extended-course/labs/queue_lab.py
+python learn/extended-course/labs/queue_lab.py
 ```
 
 ## Make capacity observable

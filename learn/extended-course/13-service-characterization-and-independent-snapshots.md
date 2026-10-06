@@ -3,7 +3,7 @@
 The [service lab](labs/service_lab.py) executes copied current service code with real copied domain, policy, mapping, and store classes. It uses a controlled queue and an explicitly stubbed background-job factory. This boundary is broader than the lifecycle table lab and narrower than the running application: it can prove local service ordering, but it does not execute the real worker, HTTP validation, authentication, disk storage, or UI.
 
 ```powershell
-python C:/Users/Owner/Desktop/.netramp/learn/extended-course/labs/service_lab.py
+python learn/extended-course/labs/service_lab.py
 ```
 
 The runner creates a disposable package-free .NET 10 project. The application remains unchanged and still targets its own framework. The lab copies twelve source files, supplies its own Program and job-factory stub, compiles, runs twenty-two baseline assertions, and runs one compiled relationship-check mutation. It hashes every copied original before and after.

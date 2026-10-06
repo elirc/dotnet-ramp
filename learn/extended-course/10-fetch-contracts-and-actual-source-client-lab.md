@@ -3,7 +3,7 @@
 Read [client.js](../../frontend/src/api/client.js), then run the [client lab](labs/client_lab.mjs). Unlike the Perch educational model, this lab imports the actual selected JavaScript module. It replaces fetch and localStorage with controlled in-memory collaborators, so it establishes wrapper behavior without a browser, server, real token, or network request.
 
 ```powershell
-node C:/Users/Owner/Desktop/.netramp/learn/extended-course/labs/client_lab.mjs
+node learn/extended-course/labs/client_lab.mjs
 ```
 
 The runner requires Node and uses only built-in modules. It reads the source bytes, imports them through a data URL, executes twelve assertions, restores the globals, and compares the source hash afterward. A successful result does not establish browser storage policy, HTTP middleware behavior, React rendering, or actual multipart encoding. Those are intentionally outside this boundary.

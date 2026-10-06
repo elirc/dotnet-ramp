@@ -2,10 +2,10 @@
 
 The [lab runner](labs/lifecycle_lab.py) creates a temporary SDK project, copies the application's enum and lifecycle-table files, and compiles those copies with a small independent oracle. It does not edit the application, run the HTTP host, or exercise the expense service. That small scope is deliberate: it lets you test every combination in the finite lifecycle table without confusing table correctness with workflow atomicity.
 
-Run the following command from any working directory with Python and a .NET 10 SDK available. The runner resolves source locations from its own file, so the command does not depend on your current directory. It uses the SDK to build a package-free temporary project and removes the temporary directory afterward.
+Run the following command from the repository root with Python and a .NET 10 SDK available. The runner resolves source locations from its own file (`Path(__file__).resolve().parents[3]`), so only the script path depends on your current directory. It uses the SDK to build a package-free temporary project and removes the temporary directory afterward.
 
 ```powershell
-python C:/Users/Owner/Desktop/.netramp/learn/extended-course/labs/lifecycle_lab.py
+python learn/extended-course/labs/lifecycle_lab.py
 ```
 
 The application itself targets .NET 8. The lab's disposable project targets .NET 10 because it uses the installed SDK for these two plain source files. A successful lab build is not a compatibility claim about the full application, its deployment environment, or every framework feature. If the required SDK is absent, record that prerequisite failure instead of calling the lifecycle policy broken.

@@ -5,7 +5,7 @@ says "the actor," "a blocking flag," or "a system transition," this is what they
 
 | Term | Meaning in this repo | Defined / used at |
 | --- | --- | --- |
-| **Expense** | A single spend claim moving through a lifecycle | [`Expense.cs` L16-48](../../../backend/Domain/Expense.cs#L16-L48) |
+| **Expense** | A single spend claim moving through a lifecycle | [`Expense.cs` L15-45](../../../backend/Domain/Expense.cs#L15-L45) |
 | **Actor** | The authenticated user performing the current action | passed as `User actor` everywhere, e.g. [`ExpenseService.Submit` L114](../../../backend/Services/ExpenseService.cs#L114) |
 | **Role** | `Employee` \| `Manager` \| `Finance` — what you may do | [`UserRole` enum](../../../backend/Domain/Enums.cs) |
 | **Status** | Where an expense is in its lifecycle | [`ExpenseStatus` enum](../../../backend/Domain/Enums.cs) |

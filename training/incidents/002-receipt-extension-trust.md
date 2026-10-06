@@ -1,6 +1,6 @@
 # Incident 002 — Receipt files on disk don't match their declared content type
 
-**Branch:** `training/incidents/002-receipt-extension-trust` (based on `main` @ `c5ef2a7`)
+**Branch:** `training/incidents/002-receipt-extension-trust` (based on `main` @ `c5ef2a7`; not published to the remote, so see the status note in `training/README.md` to recreate it)
 **Severity:** SEV-3 (security regression, no confirmed exploitation)
 **Reported by:** Quarterly infra security review of `backend/Storage` mounts
 
